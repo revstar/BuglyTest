@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignEnd="@+id/setinfo"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="134dp"
+       android:layout_marginEnd="-4dp"
+       android:text="patch-1-0-6" />
+
+   <Button
+       android:id="@+id/btn_update"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="285dp"
+       android:text="检查更新" />
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/jp"
+       android:layout_centerHorizontal="true"/>
+
+   <Button
+       android:id="@+id/upgradeInfoTv"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignEnd="@+id/btn_update"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="4dp"
+       android:layout_marginBottom="223dp"
+       android:text="获取配置" />
+
+   <TextView
+       android:id="@+id/setinfo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="38dp"
+       android:text="TextView" />
+
+   <Button
+       android:id="@+id/btnPatchDownload"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignEnd="@+id/upgradeInfoTv"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="-1dp"
+       android:layout_marginBottom="151dp"
+       android:text="加载补丁" />
+
+   <Button
+       android:id="@+id/killprocess"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="152dp"
+       android:text="杀死进程" />
+
+   <Button
+       android:id="@+id/testhotfix"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="87dp"
+       android:text="测试热更新" />
+
+
+</RelativeLayout>
