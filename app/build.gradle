@@ -16,8 +16,8 @@ android {
         applicationId "com.revstar.buglytest"
         minSdkVersion 19
         targetSdkVersion 27
-        versionCode 105
-        versionName "1.0.5"
+        versionCode 107
+        versionName "1.0.7"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         //不开启multiDex（需要用到设为true）
         multiDexEnabled true

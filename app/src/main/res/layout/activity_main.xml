@@ -14,7 +14,7 @@
        android:layout_alignParentTop="true"
        android:layout_marginTop="134dp"
        android:layout_marginEnd="-4dp"
-       android:text="patch-1-0-6" />
+       android:text="patch-1.0.7-01-09-15-53-28" />
 
    <Button
        android:id="@+id/btn_update"
@@ -25,9 +25,9 @@
        android:layout_marginBottom="285dp"
        android:text="检查更新" />
    <ImageView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:src="@drawable/jp"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:src="@drawable/man"
        android:layout_centerHorizontal="true"/>
 
    <Button
